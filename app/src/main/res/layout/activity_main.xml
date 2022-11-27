@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="@drawable/finger_morra"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="90dp"
+        android:foregroundGravity="center"
+        android:id="@+id/FinImage"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/FinImage"
+        android:text="Finger Morra"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:id="@+id/text"></TextView>
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text"
+            android:layout_marginTop="50dp"
+            android:id="@+id/prog"
+            ></ProgressBar>
+
+</RelativeLayout>
